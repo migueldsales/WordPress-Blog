@@ -571,7 +571,7 @@ h6 {
 
 .banner__bottom{
   display:flex;
-  gap: 2rem;
+  gap:2rem;
 }
 
 .banner__bottom p{
@@ -601,7 +601,7 @@ h6 {
   align-self: flex-start;
 }
 
-.article__info__info div{
+.article__info div{
   margin-bottom:2rem;
 }
 .article__info h3{
@@ -616,4 +616,192 @@ h6 {
   object-fit:cover;
   width: 100%;
   height: 50rem;
+}
+
+.feature__single{
+  background-color:var(--dark);
+  color:var(--light);
+  padding: 4rem 0;
+}
+
+.feature__grid{
+  display:grid;
+  grid-template-columns: 20rem 1fr;
+  grid-gap: 5rem;
+}
+
+.feature__single_sm{
+  margin-bottom: 3rem;
+}
+
+.feature__single_sm h3{
+  font-size:1.6rem;
+  margin-bottom:1rem;
+}
+
+.feature__single_sm a{
+  color: var(--light)
+}
+.feature__single__main{
+  background-repeat: no-repeat;
+  display:flex;
+  justify-content:flex-start;
+  align-items:flex-end;
+}
+
+/* .feature__single__main{
+  position:relative;
+  background-repeat: no-repeat;
+} */
+/* .feature__single__main article{
+  position:absolute;
+  left: 4rem;
+  bottom:4rem;
+} */
+.feature__single__main article{
+  max-width: 55rem;
+  width:100%;
+  padding:2rem;
+  margin-bottom: 5rem;
+  background-side:cover;
+}
+.feature__single__main article h2{
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.feature__single__main article a{
+  color: var(--light)
+}
+
+.single_navigation{
+  display:flex;
+  justify-content:between;
+  margin: 4rem 0;
+}
+
+/* PAGE ABOUT */
+
+.page__hero{
+  display:flex;
+  height: 30rem;
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5), rgba(0,0,0,0.6)),url("https://media.licdn.com/dms/image/C4E03AQEbEa6LlBvJyg/profile-displayphoto-shrink_800_800/0/1633478606486?e=2147483647&v=beta&t=FszfXWJuy76p54HEuVEb5VPn5Ec3tCicwBADUcaWV1k");
+  justify-content:center;
+  align-items:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.page__hero h1{
+  font-size: clamp(2rem, calc(20rem + 3vw), 6rem);
+}
+
+.page__main{
+  padding:5rem 0
+}
+.page__main__grid{
+ display:grid;
+ grid-template-columns: 1fr 1fr;
+ grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+ grid-gap:5rem;
+}
+
+.page__main__grid img{
+  width:45rem;
+  height: 60rem;
+  object-fit: cover;
+}
+
+.page__main__grid article h2{
+  font-size: clamp(3rem, 6vw, 8rem);
+  margin-bottom:3rem
+}
+
+.page__main__grid article p{
+  margin-bottom:2rem;
+}
+
+.testimonial{
+  background-color: var(--dark);
+  color: var(--light);
+  padding:5rem 0;
+}
+
+.testimonial h3{
+  font-size: clamp(2rem, 4vw, 5rem);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.testimonial__grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  grid-gap: 3rem;
+}
+
+.testimonial__info{
+  
+  display:flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial__info img{
+  width:8rem;
+  height:8rem;
+  object-fit:cover;
+  border-radius: 50%;
+}
+
+.testimonial__info ul{
+  display:flex;
+  gap:1rem;
+}
+
+.testimonial__info ul i{
+  color:yellow;
+}
+
+.team{
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 5rem 0;
+}
+
+.team h3{
+  font-size: clamp(2rem, 4vw, 5rem);
+  margin-bottom: 3rem;
+  text-align:center;
+}
+
+.team__grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap:3rem;
+}
+
+.team__card{
+  text-align:center;
+}
+
+.team__card img{
+  width:100%;
+  height: 30rem;
+  object-fit:cover;
+}
+
+.team__card h4{
+  margin-bottom: 2rem;
+}
+
+.team__card ul{
+  display: flex;
+  justify-content:center;
+  gap:2rem;
+}
+
+.team__card ul a{
+  color: #fff;
 }
