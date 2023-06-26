@@ -7,7 +7,7 @@
   --light-1: rgb(255, 255, 255, 0.2);
 }
 
-@font-face {
+/* @font-face {
   font-family: "Font Awesome 5 Free";
   font-style: normal;
   font-weight: 400;
@@ -32,7 +32,7 @@
   font-display: auto;
   src: url("./fonts/poppins-bold.woff2") format("woff2"),
     url("./fonts/poppins-bold.woff") format("woff");
-}
+} */
 
 * {
   margin: 0;
@@ -734,12 +734,12 @@ h6 {
   text-align: center;
 }
 
-.testimonial__grid{
+/* .testimonial__grid{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
   grid-gap: 3rem;
-}
+} */
 
 .testimonial__info{
   

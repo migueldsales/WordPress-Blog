@@ -62,8 +62,6 @@ url(<?php echo get_post_meta(get_the_ID(), 'page-banner', true)?>)">
     </div>
 </section>
 
-
-
 <section class="team">
     <div class="container">
         <h3>Meet the Team</h3>
@@ -94,7 +92,7 @@ url(<?php echo get_post_meta(get_the_ID(), 'page-banner', true)?>)">
             endif;
             wp_reset_postdata();
             ?>
-            <a href="<?php echo site_url('/members')?>">View All Members</a>
+            <a href="<?php echo_site_url('/members')?>">View All Members</a>
         </div>
     </div>
 </section>
